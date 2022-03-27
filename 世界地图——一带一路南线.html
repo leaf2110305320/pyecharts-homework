@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="5383d2e58983484299eae45da20182f2" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_5383d2e58983484299eae45da20182f2 = echarts.init(
+            document.getElementById('5383d2e58983484299eae45da20182f2'), 'white', {renderer: 'canvas'});
+        var option_5383d2e58983484299eae45da20182f2 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u6cc9\u5dde",
+                    "value": [
+                        118.58,
+                        24.93,
+                        ""
+                    ]
+                },
+                {
+                    "name": "\u798f\u5dde",
+                    "value": [
+                        119.3,
+                        26.08,
+                        ""
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u5dde",
+                    "value": [
+                        113.23,
+                        23.16,
+                        ""
+                    ]
+                },
+                {
+                    "name": "\u6d77\u53e3",
+                    "value": [
+                        110.35,
+                        20.02,
+                        ""
+                    ]
+                },
+                {
+                    "name": "\u5317\u6d77",
+                    "value": [
+                        109.12,
+                        21.49,
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vietnam",
+                    "value": [
+                        108.28,
+                        14.06,
+                        ""
+                    ]
+                },
+                {
+                    "name": "Malaysia",
+                    "value": [
+                        101.98,
+                        4.21,
+                        ""
+                    ]
+                },
+                {
+                    "name": "Indonesia",
+                    "value": [
+                        113.92,
+                        -0.79,
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sri Lanka",
+                    "value": [
+                        80.77,
+                        7.87,
+                        ""
+                    ]
+                },
+                {
+                    "name": "Kenya",
+                    "value": [
+                        37.91,
+                        -0.02,
+                        ""
+                    ]
+                },
+                {
+                    "name": "Greece",
+                    "value": [
+                        21.82,
+                        39.07,
+                        ""
+                    ]
+                },
+                {
+                    "name": "Itlay",
+                    "value": [
+                        12.57,
+                        41.87,
+                        ""
+                    ]
+                },
+                {
+                    "name": "India",
+                    "value": [
+                        78.96,
+                        20.59,
+                        ""
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u4e00\u5e26\u4e00\u8def\u5357\u7ebf\u8d70\u5411",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "orange",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u6cc9\u5dde->\u798f\u5dde",
+                    "coords": [
+                        [
+                            118.58,
+                            24.93
+                        ],
+                        [
+                            119.3,
+                            26.08
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u798f\u5dde->\u5e7f\u5dde",
+                    "coords": [
+                        [
+                            119.3,
+                            26.08
+                        ],
+                        [
+                            113.23,
+                            23.16
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u5dde->\u6d77\u53e3",
+                    "coords": [
+                        [
+                            113.23,
+                            23.16
+                        ],
+                        [
+                            110.35,
+                            20.02
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u6d77\u53e3->\u5317\u6d77",
+                    "coords": [
+                        [
+                            110.35,
+                            20.02
+                        ],
+                        [
+                            109.12,
+                            21.49
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5317\u6d77->Vietnam",
+                    "coords": [
+                        [
+                            109.12,
+                            21.49
+                        ],
+                        [
+                            108.28,
+                            14.06
+                        ]
+                    ]
+                },
+                {
+                    "name": "Vietnam->Malaysia",
+                    "coords": [
+                        [
+                            108.28,
+                            14.06
+                        ],
+                        [
+                            101.98,
+                            4.21
+                        ]
+                    ]
+                },
+                {
+                    "name": "Malaysia->Indonesia",
+                    "coords": [
+                        [
+                            101.98,
+                            4.21
+                        ],
+                        [
+                            113.92,
+                            -0.79
+                        ]
+                    ]
+                },
+                {
+                    "name": "Indonesia->Sri Lanka",
+                    "coords": [
+                        [
+                            113.92,
+                            -0.79
+                        ],
+                        [
+                            80.77,
+                            7.87
+                        ]
+                    ]
+                },
+                {
+                    "name": "Sri Lanka->India",
+                    "coords": [
+                        [
+                            80.77,
+                            7.87
+                        ],
+                        [
+                            78.96,
+                            20.59
+                        ]
+                    ]
+                },
+                {
+                    "name": "India->Kenya",
+                    "coords": [
+                        [
+                            78.96,
+                            20.59
+                        ],
+                        [
+                            37.91,
+                            -0.02
+                        ]
+                    ]
+                },
+                {
+                    "name": "Kenya->Greece",
+                    "coords": [
+                        [
+                            37.91,
+                            -0.02
+                        ],
+                        [
+                            21.82,
+                            39.07
+                        ]
+                    ]
+                },
+                {
+                    "name": "Greece->Italy",
+                    "coords": [
+                        [
+                            21.82,
+                            39.07
+                        ],
+                        [
+                            12.57,
+                            41.87
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "\u4e00\u5e26\u4e00\u8def\u5357\u7ebf\u8d70\u5411"
+            ],
+            "selected": {
+                "": true,
+                "\u4e00\u5e26\u4e00\u8def\u5357\u7ebf\u8d70\u5411": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u4e00\u5e26\u4e00\u8def\u5357\u7ebf",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_5383d2e58983484299eae45da20182f2.setOption(option_5383d2e58983484299eae45da20182f2);
+    </script>
+</body>
+</html>
